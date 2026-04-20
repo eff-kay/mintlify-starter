@@ -1,0 +1,41 @@
+---
+title: "Changelog"
+description: "The latest updates and improvements to your documentation site"
+---
+
+<Update label="2025-11-08" description="Latest updates" tags={["Feature", "Update"]}>
+## New features
+
+### Contextual menu with AI integrations
+
+Your documentation pages now include a contextual menu that gives readers quick access to AI-powered tools. Readers can copy content, view page source, or open content directly in ChatGPT, Claude, Perplexity, Cursor, VS Code, or via MCP.
+
+Configure the menu in your `docs.json`:
+
+```json
+"contextual": {
+  "options": ["copy", "view", "chatgpt", "claude", "perplexity", "mcp", "cursor", "vscode"]
+}
+```
+
+### AI tools setup guides
+
+A new **AI tools** section is now available with step-by-step guides for configuring your documentation workflow with popular AI coding assistants:
+
+- [Cursor setup](/ai-tools/cursor) — project rules and component reference for Cursor
+- [Claude Code setup](/ai-tools/claude-code) — `CLAUDE.md` configuration for documentation projects
+- [Windsurf setup](/ai-tools/windsurf) — workspace rules for Windsurf's Cascade assistant
+
+Each guide includes ready-to-use configuration files with Mintlify component references and writing standards built in.
+
+## Updates
+
+### Refreshed starter kit
+
+The starter kit has been updated with improved structure and formatting:
+
+- Navigation uses sentence case headings throughout
+- Landing page redesigned with a clearer layout using the `Columns` component
+- Quickstart guide reorganized for a smoother onboarding experience
+- Development guide reformatted for better readability
+</Update>

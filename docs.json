@@ -48,6 +48,10 @@
         ]
       },
       {
+        "tab": "Changelog",
+        "href": "changelog"
+      },
+      {
         "tab": "API reference",
         "groups": [
           {
